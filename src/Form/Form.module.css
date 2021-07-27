@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 20px;
+  height: 30px;
+  width: 105px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  /* padding: 0.8em 1em calc(0.8em + 3px); */
+  border-radius: 5px;
+  background: rgb(64, 199, 129);
+  box-shadow: 0 -3px rgb(53, 167, 110) inset;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgb(53, 167, 110);
+}
+.button:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+span {
+  display: block;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 500;
+}

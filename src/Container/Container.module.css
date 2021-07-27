@@ -1,0 +1,14 @@
+.Container {
+  width: 1170px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgb(139, 139, 179);
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
